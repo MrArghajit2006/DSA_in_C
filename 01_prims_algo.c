@@ -20,7 +20,7 @@ void show_MST(){
     printf("Cost of spanning tree--> %d\n", cost);
 }
 void create_graph(){
-    //  printf("test1");
+
     FILE *fp;
     fp = fopen("MSTgraph.txt", "r");
 
@@ -38,10 +38,10 @@ void create_graph(){
             fscanf(fp, "%d", &A[i][j]);
         }
     }
-    //  printf("test2");
+
 }
 void show_graph(){
-    // printf("test3");
+  
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= n; j++)
