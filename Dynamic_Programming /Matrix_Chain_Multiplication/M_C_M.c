@@ -63,7 +63,7 @@ int main(){
 		}
 		fprintf(ft, "\n");
 	}
-	fprintf(ft, "\n m[][]::\n");
+	fprintf(ft, "\n s[][]::\n");
 	for(i = 1; i<= 5; i++){
 		for(j = i+1; j<= 6; j++){
 			fprintf(ft, "%d\t", s[i][j]);
